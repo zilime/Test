@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>test1</servlet-name>
+  	<display-name>test1</display-name>
+  	<description></description>
+  	<servlet-class>cn.zilime.test1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>test1</servlet-name>
+  	<url-pattern>/test1</url-pattern>
+  </servlet-mapping>
 </web-app>
